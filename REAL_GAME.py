@@ -9,7 +9,7 @@ last_time, price_24h, _ = bitcoin_agent.get_data()
 flag = False
 bought_flag = False
 
-money = 200_000
+money = 300_000
 coin = 0
 
 while True:
