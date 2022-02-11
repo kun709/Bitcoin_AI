@@ -21,8 +21,8 @@ class Agent:
         self.input_size = args.input_size
         self.device = args.device
         self.predict_size = args.predict_size
-        con_key = "ef81b58f504c67e3eac280ea25d0e87d"
-        sec_key = "4a4b58b21a4759d03bee37b85f6a87f7"
+        con_key = ""
+        sec_key = ""
         self.bithumb = pybithumb.Bithumb(con_key, sec_key)
 
         self.linspace = torch.linspace(-1, 1, args.atoms).view(1, -1).to(args.device)
